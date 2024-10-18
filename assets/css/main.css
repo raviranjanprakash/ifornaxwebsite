@@ -1,0 +1,197 @@
+/* Global Variables */
+:root {
+    --primary-color: #1D1D1D;
+    --secondary-color: #7D7D7D;
+    --orange-color: #FF852E;
+    --divider-color: #E1E4EB;
+    --white-color: #FFFFFF;
+    --default-font: "Manrope", sans-serif;
+}
+
+/* General css */
+body {
+    font-family: var(--default-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #fff;
+    background-color: #1D1D1D;
+    background-image: url("../images/body-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+p {
+    line-height: 28px;
+    margin-bottom: 1.5em;
+    font-family: var(--default-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.1em;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: clip;
+}
+
+.section-row {
+    margin-bottom: 60px;
+}
+
+/* ==========default btn==== */
+.btn-default {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: var(--white-color);
+    background: var(--orange-color);
+    text-transform: capitalize;
+    padding: 15px 55px 15px 25px;
+    border: 2px solid var(--orange-color);
+    border-radius: 100px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-default::before {
+    content: '\f062';
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    bottom: 0;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    font-weight: 900;
+    transition: 0.3s ease-in-out;
+    background: var(--white-color);
+    color: var(--orange-color);
+    transform: translate(-20px, -50%) rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-default:hover:before {
+    color: var(--orange-color);
+    transform: translate(-20px, -50%) rotate(90deg);
+}
+
+.btn-default::after {
+    content: '';
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background: var(--white-color);
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-default:hover::after {
+    width: 100%;
+}
+
+.btn-default:hover {
+    color: var(--orange-color);
+}
+
+/* =======Section Title==== */
+
+.section-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.section-title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    border: 1px solid var(--divider-color);
+    color: var(--white-color);
+    margin-bottom: 10px;
+    border-radius: 80px;
+    padding: 8px 24px 8px 36px;
+    position: relative;
+}
+
+.section-title h3::before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: calc(50% - 4px);
+    background-color: var(--orange-color);
+}
+
+.section-title h1,
+.section-title h2 {
+    font-size: 48px;
+
+    font-weight: 700;
+    margin-bottom: 0;
+    color: var(--white-color);
+}
+
+.section-title h1 span,
+.section-title h2 span {
+    color: var(--orange-color);
+}
+
+@media (max-width:576px) {
+
+    .section-title h1,
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+
+/* ==========default btn End==== */

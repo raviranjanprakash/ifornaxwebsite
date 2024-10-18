@@ -1,0 +1,111 @@
+.main-footer {
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 0, 0, .9) 0%, rgba(0, 0, 0, .9) 100%),
+        url("../../images/footer-image.png") no-repeat top center / cover;
+    font-size: 16px;
+    padding: 80px 0 0;
+}
+
+
+
+.mega-footer {
+    margin-bottom: 40px;
+}
+.footer-logo img{
+    width: 80%;
+}
+.footer-about{
+    padding-right: 20px;
+}
+.footer-about img {
+    margin-bottom: 30px;
+}
+
+.footer-about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-about ul li {
+    margin-bottom: 15px;
+}
+
+.footer-about ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-about ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--divider-color);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-links h2 {
+    font-size: 22px;
+    color: var( --orange-color);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+    color: var(--text-color);
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-links ul li:hover {
+    color: var(--accent-color);
+}
+
+.footer-links ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-links ul li a {
+    color: inherit;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    border-top: 1px solid var(--divider-color);
+    ;
+}
+
+.footer-copyright-text p {
+    margin: 0;
+}
+
+.footer-policy-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+.footer-policy-links ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+
+.footer-policy-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-policy-links ul li.highlighted {
+    font-weight: 700;
+}
+
+.footer-policy-links ul li a {
+    color: var(--text-color);
+}

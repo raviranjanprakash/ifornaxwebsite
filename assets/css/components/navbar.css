@@ -1,0 +1,122 @@
+/* Header css */
+header.main-header {
+    background-color: var(--white-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 12px 0;
+}
+
+header.main-header .navbar {
+    padding: 0;
+    align-items: center;
+}
+
+header.main-header .navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+header.main-header .navbar-brand img {
+    min-width: 140px;
+}
+
+header.main-header .main-menu .nav-menu-wrapper {
+    flex: 1;
+    text-align: center;
+}
+
+header.main-header .main-menu .nav-menu-wrapper>ul {
+    align-items: center;
+    display: inline-flex;
+}
+
+header.main-header .main-menu ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+header.main-header .main-menu ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 10px !important;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+header.main-header .main-menu ul li.submenu>a:after {
+    content: '\f107';
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+header.main-header .main-menu ul li a:hover,
+header.main-header .main-menu ul li a:focus,
+header.main-header .main-menu ul li a.active {
+    color: var(--orange-color);
+}
+
+header.main-header .main-menu ul ul {
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0.8);
+    transform-origin: top;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 210px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    overflow: hidden;
+    background-color: var(--white-color);
+    transition: all .3s ease-in-out;
+    text-align: left;
+}
+
+header.main-header .main-menu ul ul ul {
+    left: 100%;
+    top: 0;
+    text-align: left;
+}
+
+header.main-header .main-menu ul ul li {
+    margin: 0;
+    padding: 0;
+}
+
+header.main-header .main-menu ul ul li a {
+    color: var(--primary-color);
+    padding: 8px 20px !important;
+}
+
+header.main-header .main-menu ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+    padding: 5px 0;
+}
+
+header.main-header .main-menu ul ul li a:hover {
+    color: var(--orange-color);
+    background-color: transparent;
+}
+header.main-header .navbar-toggle a{
+    background: var(--orange-color);
+    color: var(--white-color);
+    padding:3px;
+    width: 38px;
+    height: 38px;
+    font-size: 25px;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header css End */
