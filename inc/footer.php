@@ -1,4 +1,4 @@
-    <footer class="main-footer">
+    <div class="main-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -10,7 +10,7 @@
                                     <div class="col-md-4">
                                         <div class="footer-logo mb-3">
                                             <figure>
-                                                <img src="<?php echo HOST_BASE_URL; ?>assets/images/site-logo/footer-logo.svg"
+                                                <img src="<?php echo ASSETS_BASE_URL; ?>assets/images/site-logo/footer-logo.svg"
                                                     alt="Logo">
                                             </figure>
                                         </div>
@@ -107,4 +107,4 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </div>

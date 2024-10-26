@@ -1,0 +1,11 @@
+.services-section{
+    background-color: var(--white-color);
+    padding: 80px 0 40px;
+}
+.services-section .section-title h2{
+    color: var(--primary-color);
+}
+.services-section .section-title h3{
+    background: var(--orange-color);
+    color: var(--white-color);
+}

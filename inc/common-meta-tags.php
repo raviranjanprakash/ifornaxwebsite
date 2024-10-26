@@ -1,4 +1,12 @@
 <?php
+if (isset($_SERVER['HTTP_REFERER'])) {
+    print '<head data-referer="' . $_SERVER["HTTP_REFERER"] . '">';
+} else {
+    print '<head data-referer="https://' . $_SERVER["HTTP_HOST"] . $_SERVER['REQUEST_URI'] . '">';
+}
+?>
+
+<?php
 include_once('host-assets-base-url.php');
 ?>
 <!-- Common Meta Tags -->

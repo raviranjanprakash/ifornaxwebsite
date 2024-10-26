@@ -1,0 +1,70 @@
+.contact-wrapper {
+    background: var(--white-color);
+}
+
+.contact-wrapper .breadcrumb-section .breadcrumb-item {
+    color: var(--primary-color);
+}
+
+.contact-wrapper .form-wrap-section {
+    padding: 40px 0;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap {
+    background-color: var(--orange-color);
+    padding: 40px;
+    border-radius: 40px;
+    position: relative;
+}
+.contact-wrapper .form-wrap-section .form-box-wrap .box-side-image{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body{
+    margin-top: 80px;
+}
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .form-label {
+    font-family: var(--default-font);
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .form-control {
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid var(--white-color);
+    background: transparent;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .form-control::placeholder {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .form-control.text-area-controal {
+    height: 165px;
+    resize: none;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .form-control:focus {
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .btn-default {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--white-color);
+    color: var(--orange-color);
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .btn-default::before {
+    display: none;
+}
+
+.contact-wrapper .form-wrap-section .form-box-wrap .form-body .btn-default::after {
+    border-radius: 8px;
+}

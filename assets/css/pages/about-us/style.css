@@ -1,0 +1,199 @@
+.hero-section .hero-image .about-hero-img-2 {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 60%;
+}
+
+.aboutus-content-wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: url("../../../images/white-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+@media(min-width:1700px) {
+    .aboutus-content-wrap {
+        max-width: 1320px;
+    }
+}
+
+/* ==Our Culture== */
+.our-culture {
+    padding: 0 0 40px;
+}
+
+.our-culture .section-title h3 {
+    color: var(--primary-color);
+}
+
+.our-culture .section-title h2 {
+    color: var(--primary-color);
+}
+
+.our-culture .our-culture-content {
+    padding-top: 50px;
+}
+
+.our-culture .our-culture-images {
+    display: flex;
+    justify-content: end;
+}
+
+.our-culture .our-culture-content .culture-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.our-culture .our-culture-content .culture-box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+/* ===============Our Team =============== */
+.our-team-section {
+    padding: 80px 0 40px;
+}
+
+.our-team-section .section-title h3 {
+    color: var(--primary-color);
+}
+
+.our-team-section .section-title h2 {
+    color: var(--primary-color);
+}
+
+
+.our-team-section .team-member-item {
+    margin-bottom: 30px;
+}
+
+.our-team-section .team-member-item .team-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.our-team-section .team-member-item .team-image img {
+    width: 100%;
+    border-radius: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-team-section .team-member-item:hover .team-image img {
+    transform: scale(1.1);
+}
+
+.our-team-section .team-image .our-team-social-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    z-index: 2;
+}
+
+.our-team-section .team-member-item:hover .team-image .our-team-social-icon {
+    bottom: 0;
+    opacity: 1;
+}
+
+.our-team-section .our-team-social-icon ul {
+    list-style-type: none;
+    padding: 0 20px 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.our-team-section .our-team-social-icon ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.our-team-section .our-team-social-icon ul li:last-child {
+    margin-right: 0;
+}
+
+.our-team-section .our-team-social-icon ul li a {
+    display: block;
+}
+
+.our-team-section .our-team-social-icon ul li a i {
+    background: var(--orange-color);
+    border-radius: 8px;
+    color: var(--white-color);
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+}
+
+.our-team-section .our-team-social-icon ul li a i:hover {
+    background: var(--white-color);
+    color: var(--orange-color);
+}
+
+.our-team-section .team-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-team-section .team-content {
+    width: calc(100% - 60px);
+}
+
+.our-team-section .team-content h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.our-team-section .team-content p {
+    margin: 0;
+}
+
+
+
+/* ====Our Vision=== */
+.our-vision-section {
+    padding: 80px 0 40px;
+}
+
+.our-vision-section .our-vision-content .section-title h3,
+.our-vision-section .our-vision-content .section-title h2 {
+    color: var(--primary-color);
+}
+
+/* =====Our Mission=== */
+.our-mission-section{
+    padding: 80px 0 40px;
+}
+.our-mission-section .our-mission-content .section-title h3,
+.our-mission-section .our-mission-content .section-title h2 {
+    color: var(--primary-color);
+}
+/* ===========Creating Section======= */
+.creating-section{
+    background-color: var(--primary-color);
+    padding-top: 50px;
+    margin-top: 100px;
+}
+.creating-section .creating-content p{
+    color: var(--white-color);
+}
